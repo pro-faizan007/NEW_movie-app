@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.sigin-up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background: url('./image/sonflix.jpg');
+    background-color: black;
+    width: 100%;
+    
+}
+.sigin-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 80vh;
+    width:30%;
+    flex-direction: column;
+    
+    
+}
+.sigin-heading{
+    color: azure;
+}
+.sigin-input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+   
+}
+.sigin-in input{
+    background: #333;
+}
+
+.sigin-link{
+    background: #333;
+    border: 0;
+    border-radius: 4px;
+    height: 50px;
+    line-height: 50px;
+    padding: 26px 50px 0;
+    text-align: center;
+    
+
+}
+.btn-input{
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 24px 0 12px;
+    background: #e50914;
+    padding: 0.8rem 7rem 0.8rem 7rem;
+}
